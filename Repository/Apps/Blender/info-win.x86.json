@@ -5,7 +5,7 @@
   "instruction": [
     {
       "action": "downloadFile",
-      "data": "https://mirrors.dotsrc.org/blender/release/Blender4.3/blender-4.3.0-windows-x64.msi"
+      "data": "apppath|https://mirrors.dotsrc.org/blender/release/Blender4.3/blender-4.3.0-windows-x64.msi"
     },
     {
       "action": "executeApp",

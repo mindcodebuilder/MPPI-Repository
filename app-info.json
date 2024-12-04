@@ -2,5 +2,13 @@
   "dateUpdated": 20241204,
   "supportedCodeVersions": [
     "0.0.1"
+  ],
+  "standardInstall": [
+    { "action": "mkdirResPath" },
+    {
+      "action": "downloadFile",
+      "data": "apppath|"
+    },
+    { "action": "moveFile", "data": "apppath|ResPath" }
   ]
 }
