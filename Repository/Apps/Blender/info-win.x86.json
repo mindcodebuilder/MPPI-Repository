@@ -1,0 +1,20 @@
+{
+  "name": "Blender",
+  "version": "4.3.0",
+  "arch": "x64",
+  "instruction": [
+    {
+      "action": "downloadFile",
+      "data": "https://mirrors.dotsrc.org/blender/release/Blender4.3/blender-4.3.0-windows-x64.msi"
+    },
+    {
+      "action": "executeApp",
+      "data": "MsiExec.exe /i [apppath] ALLUSERS=1 /qn"
+    },
+    {
+      "action": "validatePath",
+      "data": "C:\\Program Files\\Blender Foundation\\Blender 4.3\\blender.exe"
+    }
+  ],
+  "dateUpdate": 20241204
+}

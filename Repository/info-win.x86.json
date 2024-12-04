@@ -1,0 +1,10 @@
+{
+  "dateUpdated": 20241204,
+  "appList": [
+    {
+      "name": "Blender",
+      "iconURL": "https://www.blender.org/wp-content/themes/bthree/assets/icons/favicon-32x32.png",
+      "infoPath": "/Repository/Apps/Blender/instruction.json"
+    }
+  ]
+}

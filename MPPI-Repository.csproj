@@ -1,0 +1,15 @@
+﻿<Project>
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ProjectGuid>{1FB69716-CB2B-4CCB-96EB-D47B1E73B950}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="app-info.json" />
+    <None Include="README.md" />
+    <None Include="Repository\Apps\Blender\info-win.x86.json" />
+    <None Include="Repository\info-linux.x86.json" />
+    <None Include="Repository\info-mac.x86.json" />
+    <None Include="Repository\info-win.x86.json" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
